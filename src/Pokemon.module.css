@@ -1,0 +1,15 @@
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 300px;
+    background: #F5F5F5;
+    border: 1px solid black;
+}
+
+.name {
+    text-transform: capitalize;
+}

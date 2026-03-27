@@ -1,16 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { AboutMe } from './AboutMe'
+import { TimeGreet } from './TimeGreet'
+import { Top10 } from './Top10'
+import { CookieClicker } from './cookieclicker'
+import { Pokemon } from './Pokemon'
 
 function App() {
 
   return (
     <>
-    <main>
-      <AboutMe/>
-    </main>
+      <main>
+        <AboutMe />
+      </main>
+
+      <div>
+        <TimeGreet />
+      </div>
+
+      <div>
+        <Top10 />
+      </div>
+
+      <div>
+        <CookieClicker />
+      </div>
+
+      <div >
+        <Pokemon />
+      </div>
     </>
   )
 }

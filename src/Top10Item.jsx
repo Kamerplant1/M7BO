@@ -1,9 +1,10 @@
 import styles from './Top10.module.css';
 
-export function Top10Item({ number, title, studio }) {
+export function Top10Item({ number, title, studio, image }) {
     return (
         <li className={styles.Anime}>
             <div className={styles.number}>{number}</div>
+            <img src={image} alt={title} className={styles.animeImage} />
             <div className={styles.AnimeInfo}>
                 <h3>{title}</h3>
                 <h4>{studio}</h4>

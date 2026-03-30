@@ -30,7 +30,7 @@ export function CookieClicker() {
 
     return (
         <section className={styles.cookieClicker}>
-            <h2>Cookie Clicker</h2>
+            <h2>Bram clicker</h2>
             <button className={styles.cookie} onClick={cookieClick}>
                 <img src={cookieImg} alt="cookie" />
             </button>
@@ -38,7 +38,7 @@ export function CookieClicker() {
 
             <label>Grandmas: {grandmas}</label>
             <button className={styles.upgrade} onClick={buyGrandma}>
-                Buy grandma ({Math.floor(grandmaPrice)} cookies)
+                Buy a Grandma  ({Math.floor(grandmaPrice)} cookies)
             </button>
 
             <label>Brams: {brams}</label>

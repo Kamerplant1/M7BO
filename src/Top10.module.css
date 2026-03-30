@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .top10 {
@@ -10,20 +9,42 @@
     align-items: center;
     flex-direction: column;
     margin: 5rem auto;
-    max-width: 500px;
-    background: #F5F5F5;
-    border: 1px solid black;
+    max-width: 50rem;
+    background: white;
     color: black;
     padding: 2rem;
-    gap: 1rem;
+
 }
 
 .list {
     list-style: none;
-    padding: 0;
+    padding: 0rem;
     margin: 0;
-    width: 100%;
+    width: 15vw;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+}
+
+.Anime {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.animeImage {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 8px;
+}
+
+.number {
+    font-weight: bold;
+    min-width: 2rem;
+}
+
+.AnimeInfo {
+    display: flex;
+    flex-direction: column;
 }
